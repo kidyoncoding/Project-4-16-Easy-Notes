@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 149, 255);
+}
+
+textarea {
+
+    background-color: rgb(76, 145, 92);
+    border-style: none;
+    width: 97%;
+    height: 70%;
+    overflow: auto;
+    font-weight: lighter;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 15px;
+}
+
+.card {
+    background-color: yellowgreen;
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 3%;
+
+
+}
+
+.flex-container,
+.flex-container-two {
+    display: flex;
+}
+
+.flex-container div,
+.flex-container-two div {
+    background-color: yellowgreen;
+    flex: 1;
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 3%;
+    height: 100px;
+    margin: 15px;
+
+
+}
+
+.save-button {
+
+    border-color: rgb(0, 149, 255);
+    background-color: rgb(0, 149, 255);
+    color: white;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 3%;
+}
+
+.save-button:hover {
+    background-color: white;
+    color: rgb(0, 149, 255);
+
+}
